@@ -1,0 +1,8 @@
+# Optional dependencies for local in-process vLLM mode.
+# Install this only in a Python version/environment supported by vLLM (typically Python 3.10-3.12 with CUDA).
+vllm>=0.5.0
+transformers>=4.44.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+httpx>=0.27.0
