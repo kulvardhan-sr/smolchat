@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node dependencies and tooling
+node_modules/
+.npm/
+.vite/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Coverage, logs, and temporary files
+.coverage
+.coverage.*
+coverage/
+*.log
+*.tmp
+*.temp
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
